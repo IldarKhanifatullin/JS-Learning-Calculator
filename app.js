@@ -123,11 +123,11 @@ function computeNumbersWithAction(inp1, inp2, actionSymbol) {
     /* return action == '+' ? num1 + num2 : num1 - num2 // Тернарный оператор,
     может выполняться, когда всего два условия, но здесь четыре условия */
 
-    if(actionSymbol == '+') {
+    if(actionSymbol === '+') {
         return num1 + num2
-    } else if(actionSymbol == '-') {
+    } else if(actionSymbol === '-') {
         return num1 - num2
-    } else if(actionSymbol == '*') {
+    } else if(actionSymbol === '*') {
         return num1 * num2
     } else {
         return num1 / num2
